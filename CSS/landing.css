@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 450px;
+    height: 80px;
+    width: 100%;
+    border: 1px;
+    background-color: aliceblue;
+    
+}
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+.search input{
+    background-image: url("../image/icon.png");
+    height: 38px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.menu li{
+    list-style: none;
+    transition: transform 0.3s ease-in-out; 
+}
+.menu li:hover{
+    transform: translateY(-5px); 
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: red;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 280px;
+    width: 100%;
+    border: 1px;
+    background-image: linear-gradient(#e6644555, #9198e5);
+    gap: -15px;
+}
+.top img{
+
+    height: 200px;
+    width: 200px;
+    gap: 100px;
+}
+.best-selling {
+    transition: transform 0.3s ease-in-out; 
+}
+.best-selling:hover {
+    transform: translateY(-20px); 
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 800px;
+    margin-top: 150px;
+    transition: transform 0.3s unset;
+}
+.more:hover{
+    transform: translateX(10px);
+}
+.buying{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 280px;
+    width: 100%;
+    border: 1px;
+    background-image: linear-gradient(#e6644555, #9198e5);
+    gap: 0px;
+}
+.buying img{
+    height: 200px;
+    width: 200px;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 280px;
+    width: 100%;
+    border: 1px;
+    background-image: linear-gradient(#e6644555, #9198e5);
+}
